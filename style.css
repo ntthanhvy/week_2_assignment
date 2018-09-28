@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.box-shadow {
+    box-shadow: 0  0.25rem .75rem rgba(0,0,0,.25)
+}
+
+header {
+    height: 540px;
+    background: url(bg-img.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 100px; 
+    color: aliceblue;
+}
+
+header h2 {
+    text-transform: uppercase;
+}
+
+header h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    position: inherit;
+    align-content: center;
+}
+
+.content {
+    top: -7px;
+    transform: translateY(-86px);
+}
+
+.item {
+    margin-bottom: 50px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.user:hover {
+    color: green;
+    cursor: context-menu;
+}
+
+.decription {
+    cursor: pointer;
+}
+
+.decription:hover h5 {
+    color: green;
+}
+
+.decription p {
+    font-size: 15px;
+}
+
+
+/*----------responsive--------*/
+@media (min-width:769px) {
+    * {
+        font-size: 16px;
+    }
+
+    header > div > h2 {
+        font-size: 20px;
+    }
+}
